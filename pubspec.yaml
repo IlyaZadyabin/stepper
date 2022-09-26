@@ -1,0 +1,25 @@
+name: stepper
+description: A new Flutter project.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.17.6 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.5
+  freezed_annotation: ^2.1.0
+  json_annotation: ^4.7.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  very_good_analysis: ^3.0.2
+  build_runner: ^2.2.1
+  json_serializable: ^6.4.0
+  freezed: ^2.1.1
+
+flutter:
+  uses-material-design: true
