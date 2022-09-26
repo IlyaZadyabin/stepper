@@ -1,16 +1,17 @@
-# stepper
+# Stepper
 
-A new Flutter project.
+Flutter application which implements stepper with data from Kotlin code
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## Getting Started 🚀
 
-A few resources to get you started if this is your first Flutter project:
+To run the app use the following commands:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+```sh
+$ flutter pub get
+$ flutter pub run build_runner build
+$ flutter run
+```
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+_\*Stepper works on iOS, Android._
